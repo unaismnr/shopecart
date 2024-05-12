@@ -3,10 +3,11 @@
 <p align="center">Shopecart is an ecommerce app that provides customers with the facility to purchase products, offering a range of features to enhance their shopping experience.</p>
 
 - Technology: **Flutter with Dart**.
-- Data Fetching: **REST API**
+- Data Fetching: **REST API**.
 - State Management: **Provider**.
 - Local Storage: **Shared Preferences**.
-- Payment Gateway: **Razorpay**
+- Payment Gateway: **Razorpay**.
+- Used Packages: page_transition, http, shared_preferences, provider, carousel_slider, font_awesome_flutter, staggered_grid_view_flutter, collection, razorpay_flutter, intl, share_plus and url_launcher.
 
 <h3 align="left">Features</h3>
 
