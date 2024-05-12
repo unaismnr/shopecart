@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shopecart/utils/consts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:shopecart/views/widgets/navigation_helper.dart';
-import '../views/pages/bottom_navigation.dart';
+import 'package:shopecart/views/common/bottom_navigation.dart';
+import 'package:shopecart/views/common/navigation_helper.dart';
 
 loginApi(String username, password, BuildContext context) async {
   final Map<String, dynamic> loginData = {

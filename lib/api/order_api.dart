@@ -5,10 +5,9 @@ import 'package:provider/provider.dart';
 import 'package:shopecart/utils/consts.dart';
 import 'package:shopecart/models/cart_product_model.dart';
 import 'package:http/http.dart' as http;
-import 'package:shopecart/views/pages/bottom_navigation.dart';
+import 'package:shopecart/views/common/bottom_navigation.dart';
 import 'package:shopecart/controllers/cart_provider.dart';
-
-import '../views/widgets/custom_snackbar.dart';
+import 'package:shopecart/views/common/custom_snackbar.dart';
 
 placeOrder(
   List<CartProductModel> cart,

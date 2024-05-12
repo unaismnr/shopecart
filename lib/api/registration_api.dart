@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shopecart/utils/consts.dart';
-import 'package:shopecart/views/pages/login_page.dart';
-import 'package:shopecart/views/widgets/navigation_helper.dart';
+import 'package:shopecart/views/login_and_registration/login_page.dart';
+import 'package:shopecart/views/common/navigation_helper.dart';
 
 registrationApi(String name, phone, address, username, password,
     BuildContext context) async {

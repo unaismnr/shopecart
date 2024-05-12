@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopecart/utils/consts.dart';
-import 'package:shopecart/views/pages/splash.dart';
+import 'package:shopecart/views/splash/splash.dart';
 import 'package:shopecart/controllers/bottom_navigation_provider.dart';
 import 'package:shopecart/controllers/cart_provider.dart';
 import 'package:shopecart/controllers/load_username_provider.dart';
