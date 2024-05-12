@@ -20,7 +20,7 @@ class HomeCategoryBox extends StatelessWidget {
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             return SizedBox(
-              height: 100,
+              height: MediaQuery.of(context).size.height / 6,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemCount: snapshot.data!.length,
@@ -37,7 +37,7 @@ class HomeCategoryBox extends StatelessWidget {
                       );
                     },
                     child: Container(
-                      width: 94,
+                      width: MediaQuery.of(context).size.width / 3.5,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: const [
