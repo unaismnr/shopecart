@@ -7,7 +7,7 @@
 - State Management: **Provider**.
 - Local Storage: **Shared Preferences**.
 - Payment Gateway: **Razorpay**.
-- Used Packages: page_transition, http, shared_preferences, provider, carousel_slider, font_awesome_flutter, staggered_grid_view_flutter, collection, razorpay_flutter, intl, share_plus and url_launcher.
+- Used Packages: provider, http, razorpay_flutter, shared_preferences, carousel_slider, font_awesome_flutter, staggered_grid_view_flutter, collection, page_transition, intl, share_plus and url_launcher.
 
 <h3 align="left">Features</h3>
 
