@@ -22,7 +22,7 @@ Future<List<OrderDetailsModel>?> getOrderDetailsApi(String username) async {
       );
     }
   } catch (e) {
-    log('Issue: ${e.toString()}');
+    // log('Issue: ${e.toString()}');
   }
   return null;
 }
