@@ -14,7 +14,7 @@ class HomeBannerSlider extends StatelessWidget {
     return Stack(children: [
       CarouselSlider(
         options: CarouselOptions(
-          height: MediaQuery.of(context).size.height / 4,
+          height: MediaQuery.of(context).size.height / 4.8,
           viewportFraction: .8,
           autoPlay: true,
           autoPlayInterval: const Duration(seconds: 3),

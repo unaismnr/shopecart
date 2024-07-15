@@ -57,7 +57,11 @@ class _PaymentPageState extends State<PaymentPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      body: Center(
+        child: Text('Processing'),
+      ),
+    );
   }
 
   void flutterPayment(String orderId, int totalAmount) {
@@ -106,12 +110,14 @@ class _PaymentPageState extends State<PaymentPage> {
   void _handlePaymentError(
     PaymentFailureResponse response,
   ) {
+    response.error.toString();
     log('Payment Failed');
   }
 
   void _handleExternalWallet(
     ExternalWalletResponse response,
   ) {
+    response.walletName.toString();
     log('Wallet');
   }
 }

@@ -22,7 +22,11 @@ class OrderDetailsPage extends StatelessWidget {
                 user.username.toString(),
               ),
               builder: (context, snapshot) {
-                if (snapshot.data == null || snapshot.data!.isEmpty) {
+                if (snapshot.data == null) {
+                  return const Center(
+                    child: CircularProgressIndicator(),
+                  );
+                } else if (snapshot.data!.isEmpty) {
                   return const Center(
                     child: Text('No Orders Yet'),
                   );
