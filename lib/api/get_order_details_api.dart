@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:developer';
 import 'package:http/http.dart' as http;
 import 'package:shopecart/utils/consts.dart';
 import 'package:shopecart/models/order_details_model.dart';

@@ -18,7 +18,10 @@ loginApi(String username, password, BuildContext context) async {
     ),
     body: loginData,
   );
+  print(response.statusCode);
   if (response.statusCode == 200) {
+    print(response.body);
+
     if (response.body.contains('success')) {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setBool('isLoggedIn', true);
